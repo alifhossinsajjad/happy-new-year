@@ -29,3 +29,55 @@
 .happy {
     padding: 177px 344px 177px 344px;
 }
+
+/* discount section */
+
+.discount img {
+    justify-content: center;
+    height: 800px;
+    width: 800px;
+    margin: 100px 390px 0px 390px;
+}
+
+.welcome {
+    justify-content: center;
+    height: 600px;
+    width: 1320;
+    margin: 100px 140px 0px 140px;
+}
+
+/* about section */
+
+.about {
+    background-color: #FFF8F3;
+    height: 480px;
+    width: 1320px;
+    margin: 140px 140px 0px 140px;
+    border-radius: 20px;
+}
+
+.about-title span {
+    color: red;
+    font-size: 50px;
+}
+
+.about-title {
+    text-align: center;
+    padding: 100px 300px 110px 300px;
+}
+
+.btn-primary {
+    align-items: center;
+}
+
+
+
+.btn-primary {
+    padding: 20px 16px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
