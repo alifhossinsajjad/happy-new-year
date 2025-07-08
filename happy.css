@@ -39,12 +39,34 @@
     margin: 100px 390px 0px 390px;
 }
 
+/* welcome section */
+
+
 .welcome {
-    justify-content: center;
-    height: 600px;
-    width: 1320;
-    margin: 100px 140px 0px 140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 140px 0px 140px;
+    background-color: rgba(69, 9, 9, 0.246);
+    padding: 50px 120px 50px 120px;
+    border: none;
+    border-radius: 25px;
 }
+
+.welcome-title {
+    font-size: 64px;
+}
+
+.welcome-content {
+    max-width: 980px;
+}
+
+.welcome-link a {
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+
 
 /* about section */
 
@@ -73,7 +95,7 @@
 
 
 .btn-primary {
-    padding: 20px 16px;
+    padding: 10px 16px;
     border-radius: 8px;
     background-color: red;
     color: white;
