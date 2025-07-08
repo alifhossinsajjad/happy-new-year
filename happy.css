@@ -1,0 +1,31 @@
+/* heard style */
+
+.container {
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 600px;
+    width: 1320px;
+    margin: 50px 140px 0px 250px;
+ 
+    
+}
+
+
+/* header */
+
+.sub-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+.happy {
+    padding: 177px 344px 177px 344px;
+}
