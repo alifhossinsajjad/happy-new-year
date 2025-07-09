@@ -5,8 +5,8 @@
     background-repeat: no-repeat;
     justify-content: center;
     height: 600px;
-    width: 1320px;
-    margin: 50px 140px 0px 250px;
+    max-width: 1320px;
+    margin: auto;
 
 
 }
@@ -34,9 +34,10 @@
 
 .discount-new {
     display: flex;
+    justify-content: center;
     height: 600px;
     width: 600px;
-    margin: 100px 390px 0px 390px;
+    margin: auto;
 }
 
 /* welcome section */
@@ -71,11 +72,12 @@
 /* about section */
 
 .about {
-    justify-items: center;
+    justify-content: center;
     background-color: #FFF8F3;
     height: 500px;
     width: 1320px;
-    margin: 140px 140px 0px 140px;
+    margin: auto;
+    margin-top: 100px;
     border-radius: 20px;
 }
 
@@ -106,7 +108,7 @@
 }
     .offer-container{
       display: flex;
-      margin: 100px 140px 0 140px;
+      margin: auto;
       justify-content: space-between;
       align-items: center;
       max-width: 1000px;
