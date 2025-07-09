@@ -7,8 +7,8 @@
     height: 600px;
     width: 1320px;
     margin: 50px 140px 0px 250px;
- 
-    
+
+
 }
 
 
@@ -32,10 +32,10 @@
 
 /* discount section */
 
-.discount img {
-    justify-content: center;
-    height: 800px;
-    width: 800px;
+.discount-new {
+    display: flex;
+    height: 600px;
+    width: 600px;
     margin: 100px 390px 0px 390px;
 }
 
@@ -47,7 +47,7 @@
     justify-content: space-between;
     margin: 120px 140px 0px 140px;
     background-color: rgba(69, 9, 9, 0.246);
-    padding: 50px 120px 50px 120px;
+    padding: 50px 150px 50px 120px;
     border: none;
     border-radius: 25px;
 }
@@ -71,8 +71,9 @@
 /* about section */
 
 .about {
+    justify-items: center;
     background-color: #FFF8F3;
-    height: 480px;
+    height: 500px;
     width: 1320px;
     margin: 140px 140px 0px 140px;
     border-radius: 20px;
@@ -89,12 +90,6 @@
 }
 
 .btn-primary {
-    align-items: center;
-}
-
-
-
-.btn-primary {
     padding: 10px 16px;
     border-radius: 8px;
     background-color: red;
@@ -103,3 +98,68 @@
     font-size: 20px;
 }
 
+/* comming soon */
+
+.offer {
+    justify-content: center;
+    margin: 100px 140px 0 140px;
+}
+    .offer-container{
+      display: flex;
+      margin: 100px 140px 0 140px;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1000px;
+      width: 100%;
+      padding: 20px;
+      gap: 40px;
+    }
+
+    .offer-left, .offer-right {
+      flex: 1;
+    }
+
+    .offer-center {
+      width: 365px;
+      height: 365px;
+      border: 8px solid red;
+      border-radius: 100%;
+    }
+
+    .offer-left h4 {
+      color: red;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .offer-left h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .offer-left p {
+      color: #666;
+      line-height: 1.6;
+      max-width: 300px;
+    }
+
+    .offer-right h2 {
+      color: red;
+      font-size: 2rem;
+      margin-bottom: 10px;
+       margin-left: 100px;
+    }
+
+    .offer-right p {
+      color: #666;
+      max-width: 250px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+       margin-left: 100px;
+    }
+
+    .offer-right img {
+      width: 120px;
+      margin-left: 100px;
+    }
